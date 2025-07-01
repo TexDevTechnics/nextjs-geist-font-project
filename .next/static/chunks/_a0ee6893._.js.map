@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useEffect } from \"react\";\nimport { useRouter } from \"next/navigation\";\n\nexport default function HomePage() {\n  const router = useRouter();\n\n  useEffect(() => {\n    router.push(\"/login\");\n  }, [router]);\n\n  return null;\n}\n"],"names":[],"mappings":";;;AAEA;AACA;;AAHA;;;AAKe,SAAS;;IACtB,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IAEvB,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;8BAAE;YACR,OAAO,IAAI,CAAC;QACd;6BAAG;QAAC;KAAO;IAEX,OAAO;AACT;GARwB;;QACP,qIAAA,CAAA,YAAS;;;KADF","debugId":null}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}
